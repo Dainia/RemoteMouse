@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/remote_mouse.png</file>
+    </qresource>
+</RCC>
