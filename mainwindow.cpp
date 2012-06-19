@@ -93,14 +93,14 @@ void MainWindow::LButtonClick()
     mouse_event(MOUSEEVENTF_LEFTUP,0,0,0,0);
 }
 
-//void MainWindow::LButtonDBClick()
-//{
-//    mouse_event(MOUSEEVENTF_LEFTDOWN,0,0,0,0);
-//    mouse_event(MOUSEEVENTF_LEFTUP,0,0,0,0);
+void MainWindow::LButtonDBClick()
+{
+    mouse_event(MOUSEEVENTF_LEFTDOWN,0,0,0,0);
+    mouse_event(MOUSEEVENTF_LEFTUP,0,0,0,0);
 
-//    mouse_event(MOUSEEVENTF_LEFTDOWN,0,0,0,0);
-//    mouse_event(MOUSEEVENTF_LEFTUP,0,0,0,0);
-//}
+    mouse_event(MOUSEEVENTF_LEFTDOWN,0,0,0,0);
+    mouse_event(MOUSEEVENTF_LEFTUP,0,0,0,0);
+}
 
 void MainWindow::RButtonClick()
 {
